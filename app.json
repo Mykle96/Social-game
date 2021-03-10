@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Tapapp",
+    "slug": "Tapapp",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/rumbl_no_shadow.png", // SHOULD BE PNG
+      "resizeMode": "contain",
+      "backgroundColor": "#252b30" //"#281028"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}

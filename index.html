@@ -1,0 +1,42 @@
+<body>
+  <script src="./app.js"></script>
+  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="/__/firebase/7.15.4/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="/__/firebase/7.15.4/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="/__/firebase/7.15.4/firebase-auth.js"></script>
+  <script src="/__/firebase/7.15.4/firebase-firestore.js"></script>
+
+  <script src="/__/firebase/init.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-analytics.js"></script>
+
+  <script src="https://www.gstatic.com/firebasejs/7.15.4/firebase-firestore.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyAeSe_e9psbsmCgYQALaUNNn60AgUGfRP4",
+      authDomain: "tapapp-2ae11.firebaseapp.com",
+      databaseURL: "https://tapapp-2ae11.firebaseio.com",
+      projectId: "tapapp-2ae11",
+      storageBucket: "tapapp-2ae11.appspot.com",
+      messagingSenderId: "297070664875",
+      appId: "1:297070664875:web:8daa951fa47b3108296bee",
+      measurementId: "G-VQTNY292PX",
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+</body>
